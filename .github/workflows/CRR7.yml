@@ -1,13 +1,13 @@
-name: WALTONRD
+name: RTXONRD
 
 on: 
   workflow_dispatch:
     inputs:
       authcode:
-        description: 'Enode'
+        description: 'Exnode'
         required: true
       pincode:
-        description: 'SPin'
+        description: 'SxPin'
         required: true
   
 jobs:
